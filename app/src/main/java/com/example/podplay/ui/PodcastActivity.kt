@@ -18,8 +18,6 @@ class PodcastActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_podcast)
 
-
-
         val itunesService = ItunesService.instance
         val itunesRepo = ItunesRepo(itunesService)
 
